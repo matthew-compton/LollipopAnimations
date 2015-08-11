@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_frame_animations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frame_animations"
+            />
+
+        <Button
+            android:id="@+id/button_reveal_animations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reveal_animations"
+            />
+
+        <Button
+            android:id="@+id/button_ripple_effects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ripple_effects"
+            />
+
+        <Button
+            android:id="@+id/button_linear_motion_effects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linear_motion_effects"
+            />
+
+        <Button
+            android:id="@+id/button_curved_motion_effects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/curved_motion_effects"
+            />
+
+        <Button
+            android:id="@+id/button_shared_element_transitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_element_transitions"
+            />
+
+        <Button
+            android:id="@+id/button_enter_transitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_transitions"
+            />
+
+        <Button
+            android:id="@+id/button_exit_transitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_transitions"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

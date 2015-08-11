@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.bignerdranch.android.lollipopanimations"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FrameAnimationsActivity"
+            android:label="@string/frame_animations"
+            />
+
+        <activity
+            android:name=".RevealAnimationsActivity"
+            android:label="@string/reveal_animations"
+            />
+
+        <activity
+            android:name=".RippleEffectsActivity"
+            android:label="@string/ripple_effects"
+            />
+
+        <activity
+            android:name=".LinearMotionEffectsActivity"
+            android:label="@string/linear_motion_effects"
+            />
+
+        <activity
+            android:name=".CurvedMotionEffectsActivity"
+            android:label="@string/curved_motion_effects"
+            />
+
+        <activity
+            android:name=".SharedElementTransitionsActivity"
+            android:label="@string/shared_element_transitions"
+            />
+
+        <activity
+            android:name=".EnterTransitionsActivity"
+            android:label="@string/enter_transitions"
+            />
+
+        <activity
+            android:name=".ExitTransitionsActivity"
+            android:label="@string/exit_transitions"
+            />
+
+    </application>
+
+</manifest>

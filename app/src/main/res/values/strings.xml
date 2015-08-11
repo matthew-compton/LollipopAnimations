@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Lollipop Animations</string>
+
+    <string name="frame_animations">Frame Animations</string>
+    <string name="reveal_animations">Reveal Animations</string>
+    <string name="ripple_effects">Ripple Effects</string>
+    <string name="linear_motion_effects">Linear-Motion Effects</string>
+    <string name="curved_motion_effects">Curved-Motion Effects</string>
+    <string name="shared_element_transitions">Shared-Element Transitions</string>
+    <string name="enter_transitions">Enter Transitions</string>
+    <string name="exit_transitions">Exit Transitions</string>
+
+</resources>
