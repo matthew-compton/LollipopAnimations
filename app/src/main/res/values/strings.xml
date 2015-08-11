@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">Lollipop Animations</string>
+    <string name="instructions">Tap Anywhere to Begin</string>
 
     <string name="frame_animations">Frame Animations</string>
     <string name="reveal_animations">Reveal Animations</string>
