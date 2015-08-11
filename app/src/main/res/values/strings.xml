@@ -1,11 +1,12 @@
 <resources>
 
     <string name="app_name">Lollipop Animations</string>
-    <string name="instructions">Tap Anywhere to Begin</string>
 
     <string name="frame_animations">Frame Animations</string>
     <string name="reveal_animations">Reveal Animations</string>
     <string name="ripple_effects">Ripple Effects</string>
+    <string name="ripple_effects_bordered">Ripple Effects Bordered</string>
+    <string name="ripple_effects_borderless">Ripple Effects Borderless</string>
     <string name="linear_motion_effects">Linear-Motion Effects</string>
     <string name="curved_motion_effects">Curved-Motion Effects</string>
     <string name="shared_element_transitions">Shared-Element Transitions</string>

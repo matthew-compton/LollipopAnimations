@@ -9,12 +9,13 @@
              android:paddingTop="@dimen/activity_vertical_margin"
              tools:context=".FrameAnimationsActivity">
 
-    <ImageView
+    <Button
         android:id="@+id/activity_frame_animations_imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/frame_animation_selector"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/reveal_animations"
         />
 
 </FrameLayout>
