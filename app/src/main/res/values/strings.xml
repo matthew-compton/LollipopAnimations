@@ -4,6 +4,8 @@
 
     <string name="frame_animations">Frame Animations</string>
     <string name="reveal_animations">Reveal Animations</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
     <string name="ripple_effects">Ripple Effects</string>
     <string name="ripple_effects_bordered">Ripple Effects Bordered</string>
     <string name="ripple_effects_borderless">Ripple Effects Borderless</string>
