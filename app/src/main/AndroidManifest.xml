@@ -44,8 +44,13 @@
             />
 
         <activity
-            android:name=".SharedElementTransitionsActivity"
-            android:label="@string/shared_element_transitions"
+            android:name=".SharedElementTransitionsSmallActivity"
+            android:label="@string/shared_element_transitions_small"
+            />
+
+        <activity
+            android:name=".SharedElementTransitionsLargeActivity"
+            android:label="@string/shared_element_transitions_large"
             />
 
         <activity

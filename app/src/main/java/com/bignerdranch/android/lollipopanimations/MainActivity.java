@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         buttonSharedElementTransitions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentSharedElementTransitions = new Intent(MainActivity.this, SharedElementTransitionsActivity.class);
+                Intent intentSharedElementTransitions = new Intent(MainActivity.this, SharedElementTransitionsSmallActivity.class);
                 startActivity(intentSharedElementTransitions);
             }
         });
