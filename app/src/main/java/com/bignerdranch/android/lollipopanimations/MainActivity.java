@@ -75,10 +75,12 @@ public class MainActivity extends AppCompatActivity {
         buttonTransitions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TransitionsActivity.class);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this);
-                    Intent intent = new Intent(MainActivity.this, TransitionsActivity.class);
                     startActivity(intent, options.toBundle());
+                } else {
+                    startActivity(intent);
                 }
             }
         });
