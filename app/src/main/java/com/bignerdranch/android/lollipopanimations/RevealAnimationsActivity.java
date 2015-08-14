@@ -30,10 +30,10 @@ public class RevealAnimationsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (mIsShowing) {
                     mRevealAnimationButton.setText(R.string.show);
-                    exitReveal();
+                    hide();
                 } else {
                     mRevealAnimationButton.setText(R.string.hide);
-                    enterReveal();
+                    show();
                 }
                 mIsShowing = !mIsShowing;
             }
@@ -41,7 +41,7 @@ public class RevealAnimationsActivity extends AppCompatActivity {
 
     }
 
-    private void enterReveal() {
+    private void show() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             int cx = mImageView.getMeasuredWidth() / 2;
             int cy = mImageView.getMeasuredHeight() / 2;
@@ -55,7 +55,7 @@ public class RevealAnimationsActivity extends AppCompatActivity {
         }
     }
 
-    private void exitReveal() {
+    private void hide() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             int cx = mImageView.getMeasuredWidth() / 2;
             int cy = mImageView.getMeasuredHeight() / 2;
