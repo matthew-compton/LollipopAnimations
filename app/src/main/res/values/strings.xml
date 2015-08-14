@@ -16,7 +16,6 @@
     <string name="shared_element_transitions_small">Shared-Element Transitions - Small</string>
     <string name="shared_element_transition">shared_element_transition</string>
     <string name="start">Start</string>
-    <string name="enter_transitions">Enter Transitions</string>
-    <string name="exit_transitions">Exit Transitions</string>
+    <string name="transitions">Transitions</string>
 
 </resources>

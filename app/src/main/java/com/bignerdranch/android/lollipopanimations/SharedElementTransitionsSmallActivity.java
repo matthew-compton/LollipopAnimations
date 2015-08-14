@@ -16,6 +16,7 @@ public class SharedElementTransitionsSmallActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shared_element_transitions_small);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mImageView = (ImageView) findViewById(R.id.activity_shared_element_transitions_small_image);
         mImageView.setOnClickListener(new View.OnClickListener() {

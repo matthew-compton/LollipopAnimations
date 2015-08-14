@@ -21,6 +21,7 @@ public class RevealAnimationsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reveal_animations);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mIsShowing = true;
         mImageView = (ImageView) findViewById(R.id.activity_reveal_animations_image);

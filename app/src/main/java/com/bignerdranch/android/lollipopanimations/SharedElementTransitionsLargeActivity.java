@@ -16,6 +16,7 @@ public class SharedElementTransitionsLargeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shared_element_transitions_large);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mImageView = (ImageView) findViewById(R.id.activity_shared_element_transitions_large_image);
         mImageView.setOnClickListener(new View.OnClickListener() {

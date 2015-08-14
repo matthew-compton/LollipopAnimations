@@ -20,6 +20,7 @@ public class CurvedMotionEffectsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curved_motion_effects);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mIsShowing = true;
         mImageView = (ImageView) findViewById(R.id.activity_curved_motion_effects_image);

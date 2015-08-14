@@ -56,17 +56,10 @@
             />
 
         <Button
-            android:id="@+id/button_enter_transitions"
+            android:id="@+id/button_transitions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enter_transitions"
-            />
-
-        <Button
-            android:id="@+id/button_exit_transitions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/exit_transitions"
+            android:text="@string/transitions"
             />
 
     </LinearLayout>

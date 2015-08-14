@@ -9,6 +9,7 @@ public class RippleEffectsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ripple_effects);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }

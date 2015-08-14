@@ -11,6 +11,7 @@ public class FrameAnimationsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_animations);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final ImageView frameAnimationImageView =
                 (ImageView) findViewById(R.id.activity_frame_animations_imageview);

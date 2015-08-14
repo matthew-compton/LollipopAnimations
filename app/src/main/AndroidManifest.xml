@@ -20,48 +20,66 @@
 
         <activity
             android:name=".FrameAnimationsActivity"
-            android:label="@string/frame_animations"
-            />
+            android:label="@string/frame_animations">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".RevealAnimationsActivity"
-            android:label="@string/reveal_animations"
-            />
+            android:label="@string/reveal_animations">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".RippleEffectsActivity"
-            android:label="@string/ripple_effects"
-            />
+            android:label="@string/ripple_effects">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".LinearMotionEffectsActivity"
-            android:label="@string/linear_motion_effects"
-            />
+            android:label="@string/linear_motion_effects">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".CurvedMotionEffectsActivity"
-            android:label="@string/curved_motion_effects"
-            />
-
+            android:label="@string/curved_motion_effects">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".SharedElementTransitionsSmallActivity"
-            android:label="@string/shared_element_transitions_small"
-            />
+            android:label="@string/shared_element_transitions_small">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".SharedElementTransitionsLargeActivity"
-            android:label="@string/shared_element_transitions_large"
-            />
+            android:label="@string/shared_element_transitions_large">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
-            android:name=".EnterTransitionsActivity"
-            android:label="@string/enter_transitions"
-            />
-
-        <activity
-            android:name=".ExitTransitionsActivity"
-            android:label="@string/exit_transitions"
-            />
+            android:name=".TransitionsActivity"
+            android:label="@string/transitions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
     </application>
 
